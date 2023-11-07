@@ -1,52 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8" />
-    <meta name="description" content="HTML LISTS AND TABLES"/>
-    <title>Time Table</title>
+  <meta charset="UTF-8" />
+  <meta name="description" content="HTML LISTS AND TABLES"/>
+  <title>Time Table</title>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
 </head>
+
+
 <body>
-    <table>
-        <tr>
-          <th rowspan="6">Time Table</th>
-          <th></th>
-          <th>Mon</th>
-          <th>Tue</th>
-          <th>Wed</th>
-          <th>Thu</th>
-          <th>Fri</th>
-        </tr>
-        <tr>
-        <tr colspan="7">Hours</th>
-          <td>Science</td>
-          <td>Maths</td>
-          <td>Science</td>
-          <td>Maths</td>
-          <td>Arts</td>
-        </tr>
-        <tr>
-          <td>Social</td>
-          <td>History</td>
-          <td>English</td>
-          <td>Social</td>
-          <td>Sports</td>
-        </tr>
-        <tr>
-            <td rowspan="2">Lunch</td>
-          </tr>
-          <tr>
-            <td>Science</td>
-            <td>Maths</td>
-            <td>Science</td>
-            <td>Maths</td>
-            <td colspan="2">Project</td>
-          </tr>
-          <tr>
-            <td>Social</td>
-            <td>History</td>
-            <td>English</td>
-            <td>Social</td>
-          </tr>
-      </table>
+  <table style="width:75%;text-align:center">
+  <tr>
+    <th colspan="6">Time Table</th>
+    
+  </tr>
+  <th rowspan="7">Hours</th>
+  <tr>
+    <td>Mon</td>
+    <td>Tue</td>
+    <td>Wed</td>
+    <td>Thu</td>
+    <td>Fri</td>
+    
+  </tr>
+  <tr>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Arts</td>
+  
+  </tr>
+  <tr>
+    <td>Social</td>
+    <td>History</td>
+    <td>English</td>
+    <td>Social</td>
+    <td>Sports</td>
+  </tr>
+  <tr>
+    <th colspan="6">Lunch</th>
+    
+  </tr>
+  <tr>
+    <td>Science</td>
+    <td>Maths</td>
+    <td>Science</td>
+    <td>Maths</td>
+    <td rowspan="2">Project</td>
+    </tr>
+    <tr>
+      <td>Social</td>
+      <td>History</td>
+      <td>English</td>
+      <td>Social</td>
+      
+    </tr> 
+
+</table>
+
+<h1>Project</h1>
+<ul style="list-style-type:square;">
+  <li>Constructing a building</li>
+  <li>Medical Innovation</li>
+  <li>Artifical Intelligence</li>
+  <li>Informatics</li>
+</ul>
+<h1>History</h1>
+<ol type="a">
+  <li>Egyptian </li>
+  <li>Nilotics</li>
+  <li>Colonial</li>
+  
+</ol>
 </body>
 </html>
+
