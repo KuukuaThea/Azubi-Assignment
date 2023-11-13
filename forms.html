@@ -7,17 +7,14 @@
 <body>
     <h2>Application Form</h2>
 
-<form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname"><br>
-  <label for="lstname">Last name:</label><br>
-  <input type="text" id="lstname" name="lstname"><br><br>
-  <input type="submit" value="Submit">
+<form>
+        <label for="full-name">Full Name: <input id="full-name" type="text" required /></label>
+        <label for="age">Age: <input id="age" type="number" required /></label>
+        <label for="email">Email: <input id="email" type="email" required /></label>
+        <input type="submit" value="Submit">
 </form> 
 
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
 
-</body>
-</html>
+
 </body>
 </html>
